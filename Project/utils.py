@@ -71,11 +71,11 @@ def eval_game(game_dict, true_game : list , verbose = True):
                                 
     if verbose:
         print("             \tscores")
-        print(f"Card number \t{round(score_num,2)} %" )
-        print(f"Card suit   \t{round(score_suits,2)} %" )
-        print(f"Chips       \t{round(score_chips,2)} %" )
+        print(f"Card number \t{round(score_num,2):.2%}" )
+        print(f"Card suit   \t{round(score_suits,2):.2%}" )
+        print(f"Chips       \t{round(score_chips,2):.2%}" )
         print("\n")
-        print(f"FINAL score \t{round(final_score,2)} %")
+        print(f"FINAL score \t{round(final_score,2):.2%}")
     return final_score ,  errors 
 
     
