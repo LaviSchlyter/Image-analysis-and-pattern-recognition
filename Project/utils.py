@@ -103,7 +103,7 @@ def print_game(game_dict , true_game ):
     def handle_empty(card):
         if card == '0' or card == 0:
             return None
-        card2 = card[:-1] + card[-1:].lower()
+        card2 = card[:-1].replace("10", "T") + card[-1:].lower()
         return Card.new(card2)
 
     def parse_pretty_hand(game):
