@@ -34,7 +34,7 @@ Please find below the list of material accessible from this repository:
 [l01]: labs/lab_01_segmentation.ipynb
 [l02]: labs/lab_02_object_description.ipynb
 [l03]: labs/lab_03_classification.ipynb
-[project-descr]: project/project.ipynb
+[project-descr]: Project/project.ipynb
 
 
 ## Installation instructions
